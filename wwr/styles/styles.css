@@ -152,7 +152,7 @@ h2 {
 }
 
 header {
-  background-color: rgba(0, 51, 102, .3);
+  background-color: rgba(0, 51, 102, .5);
   
 }
 
@@ -302,4 +302,88 @@ main section img {
   footer {
       margin-top: 25px;
   }
+}
+
+
+/*Here start the rivers style*/
+
+.content-river {
+  width: 100%;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+  background-color: #003366;
+}
+
+.banner span {
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.choose-river {
+  margin-top: 40px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.banner-river {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #003366 ;
+  height: auto;
+  max-width: 400px;
+  color: white;
+  text-align: center;
+}
+
+.banner-river img {
+  width: 400px;
+}
+
+.banner-river button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #00A6FF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.banner-river button:hover {
+  background-color: #00FF40;
+}
+
+.banner-river p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.contact-us {
+  background-color: #003366;
+  color: white;
+  margin-top: 40px;
+  padding: 10px 20px;
+}
+
+.message {
+  text-align: center;
+}
+
+.email {
+  text-align: center;
+}
+
+footer {
+  margin-top: 40px;
 }
