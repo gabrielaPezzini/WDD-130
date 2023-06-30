@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&family=Montserrat&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #110369;
+  width: 100vw;
+}
+
+header {
+  border-bottom: 1px solid #CCF381;
+  background-color: #110369;
+  color: white;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+nav {
+  display: flex;
+  gap: 60px;
+}
+
+nav a{
+  color: #F0F0F0;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#download{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #4831D4;
+  color: #F0F0F0;
+  border-radius: 5px;
+  padding: 4px 9px;
+  font-size: 14px;
+}
+
+#logo_link img {
+  padding: 6px;
+  justify-content: center;
+  align-self: center;
+  height: 40px;
+}
+
+#first{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.text-information{
+  margin-top: 25%;
+  grid-column: 2/5;
+}
+
+.text-information h1{
+  color: #F0F0F0;
+  font-size: 42px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text-information p{
+  color: #CCF381;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+.image-me{
+  grid-column: 6/8;
+}
+
+.me{
+  height: 100vh;
+}
+
+#second_background{
+  border-top: 2px solid #CCF381;
+  border-bottom: 2px solid #CCF381;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  opacity: .6;
+  position: absolute;
+  z-index: 0;
+}
+
+#second{
+  position: relative;
+  height: 500px;
+}
+
+.text-technologies{
+  margin-top: 150px;
+  width: 100vw;
+  position: absolute;
+}
+
+.tec{
+  color: #F0F0F0;
+  text-align: center;
+}
+
+.tec h2{
+  font-size: 38px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.tec p{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+
+.img-tec img{
+  height: 80px;
+}
+
+.img-tec{
+  padding: 50px;
+  text-align: center;
+}
+
+#third{
+  color: #F0F0F0;
+  text-align: center;
+  margin-top: 150px;
+}
+
+#third h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+}
+
+.proj img{
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.proj p{
+  font-family: 'Lato', sans-serif;
+}
+.my-projects{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#third p{
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+footer{
+  margin-top: 150px;
+  border-top: 2px solid #CCF381;
+}
+.social{
+  height: 65px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 50px;
+}
+
+.img-social{
+  width: 30px;
+}
+
+.img1 {
+  margin-right: 10px;
+}
