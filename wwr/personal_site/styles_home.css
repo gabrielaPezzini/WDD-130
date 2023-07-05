@@ -24,7 +24,7 @@ header {
 
 nav {
   display: flex;
-  gap: 60px;
+  gap: 20px;
 }
 
 nav a{
@@ -32,6 +32,14 @@ nav a{
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   font-size: 14px;
+  padding: 15px;
+}
+
+nav a:hover{
+  background-color: #4831D4;
+  color: #F0F0F0;
+  font-weight: bold;
+  border-radius: 5px;
 }
 
 #download{
@@ -40,7 +48,7 @@ nav a{
   background-color: #4831D4;
   color: #F0F0F0;
   border-radius: 5px;
-  padding: 4px 9px;
+  padding: 8px 15px;
   font-size: 14px;
 }
 
